@@ -1,0 +1,70 @@
+#35:20 
+    models
+        post
+        user 
+#50 :13 
+    views
+        auth
+            configuracion de __init__.py del package main        
+        blog 0
+#56:20 
+    temlaptes
+        auth    
+            login.html
+            register.html
+        blog 0
+        #plantilla html herencia
+        base.html
+
+1:03:51
+    register.html
+1:07:45
+    #Crear o Registara Usuario
+    #@auth.route('/register', methods=('GET', 'POST'))
+    @auth.route('/register')
+    def register():
+        return render_template('auth/register.html')
+1:19:57 
+    base.html
+1:26:08
+    template
+        login
+    auth.py 
+        creacion de login
+1:35:31 done
+    auth.py>register
+        return redirect(url_for('index'))
+
+1:37:14  
+    auth 
+        g
+1:47:55
+    create
+        index.html
+        upodate.html
+        create.html
+    blog.py
+
+2:03:09
+    create.html
+2:05:53
+    #paquete principal
+    __init__.py
+2:09:29
+    index.html
+    blog.py
+2;19:37
+    base.html
+
+2:25:16
+    update delete post
+2:34:51
+    index
+2:50:14
+    static
+        css
+        img
+2:51:52
+
+
+
